@@ -64,9 +64,14 @@ token:{jwtToken}
 
 ### List of APIs
 POST - Auth API = http://<server.address>:8080/auth?userName&password
+
 GET - get all users =  http://<server.address>:8080/api/user/all
+
 GET - get all posts =  http://<server.address>:8080/api/post/all
+
 GET - get all comments =  http://<server.address>:8080/api/comment/all
+
 GET - get all comments by post Id =  http://<server.address>:8080/api/comment/bypost/{postId}
+
 GET - get all posts by user Id =  http://<server.address>:8080/api/post/byuser/{userId}
 
