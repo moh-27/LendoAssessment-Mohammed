@@ -1,0 +1,4 @@
+FROM openjdk:11
+WORKDIR /app
+ADD target/springboot-tm-docker.jar /app
+ENTRYPOINT ["java", "-jar", "springboot-tm-docker.jar"]
