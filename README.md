@@ -35,15 +35,17 @@ Go to the release page and download the last version
 https://github.com/moh-27/LendoAssessment-mohammed/releases/tag/Docker
 
 
-#### 2- Unzip/Extract the file
-Unzip/Extract the downloaded file, and open the folder that has the docker files.
+#### 2- Download the docker and jar files
+Download the docker and jar files and make sure they are in the same folder
 
 #### 3- Build and Run the Docker image
 Open a terminal/git-bash in this folder (or move to the downloaded folder directory).
 
 Run the following command:
 
-``` docker-compose up ```
+``` docker build -t lendoAssessment:1.1 . ```
+
+``` docker run -p 127.0.0.1:8080:8080 lendoAssessment  ```
 
 
 # How to Access the APIs
