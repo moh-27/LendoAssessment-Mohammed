@@ -15,7 +15,7 @@ To use this method make sure that you have the following:
 #### 1- Clone this project to your machine
 Open Git-bash/terminal and run the following command to clone the project.
 
-``` git clone https://github.com/moh-27/TMBackendAssessment.git ```
+``` git clone https://github.com/moh-27/LendoAssessment-Mohammed.git ```
 
 #### 2- Open the project
 Opent the poject with IntalliJ and locate the LendoAssessmentApplication.class.
